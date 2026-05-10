@@ -14,9 +14,9 @@ jobs:
     runs-on: ubuntu-latest
 
     permissions:
-      contents: write       # crear commits y tags
-      pull-requests: write  # abrir/actualizar el PR de versiones
-      id-token: write       # npm provenance
+      contents: write       
+      pull-requests: write  
+      id-token: write       
 
     steps:
       - uses: actions/checkout@v4
