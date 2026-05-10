@@ -2,6 +2,14 @@
   "name": "@rdnr/num2es",
   "version": "0.1.0",
   "description": "Convierte números a palabras en español. Soporta monedas, géneros y escalas hasta trillones.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ricardodrn/num2es"
+  },
+  "homepage": "https://github.com/ricardodrn/num2es#readme",
+  "bugs": {
+    "url": "https://github.com/ricardodrn/num2es/issues"
+  },
   "keywords": [
     "numero",
     "letras",
