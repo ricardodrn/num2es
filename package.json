@@ -41,8 +41,8 @@
     "build:types": "tsc -p tsconfig.types.json",
     "lint": "eslint src test",
     "lint:fix": "eslint src test --fix",
-    "test": "node --experimental-vm-modules node_modules/.bin/jest --no-coverage",
-    "test:coverage": "node --experimental-vm-modules node_modules/.bin/jest --coverage",
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest --no-coverage",
+    "test:coverage": "NODE_OPTIONS=--experimental-vm-modules jest --coverage",
     "release": "changeset publish"
   },
   "lint-staged": {
