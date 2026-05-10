@@ -3,11 +3,10 @@ export default {
   rules: {
     'subject-case': [2, 'never', ['upper-case']],
     'body-max-line-length': [1, 'always', 120],
-  },
-  'type-enum':[
-    2,
-    'always',
-    [
+    'type-enum': [
+      2,
+      'always',
+      [
         'ci',        // Continuous Integration configuration and pipeline changes
         'test',      // Adding or updating tests
         'build',     // Build system and dependencies changes
@@ -21,7 +20,8 @@ export default {
         'perf',      // Performance improvements
         'refactor',  // Code refactoring without feature or bug changes
         'revert',    // Reverting previous commits
-        'style'      // Code style changes (formatting, semicolons, etc)
-    ]
-  ],
+        'style',     // Code style changes (formatting, semicolons, etc)
+      ],
+    ],
+  },
 };

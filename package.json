@@ -35,7 +35,7 @@
   ],
   "scripts": {
     "prepare": "husky",
-    "build": "npm run build:esm && npm run build:cjs && npm run build:types",
+    "build": "pnpm run build:esm && pnpm run build:cjs && pnpm run build:types",
     "build:esm": "tsc -p tsconfig.esm.json",
     "build:cjs": "tsc -p tsconfig.cjs.json && node -e \"require('fs').writeFileSync('dist/cjs/package.json', JSON.stringify({type:'commonjs'},null,2))\"",
     "build:types": "tsc -p tsconfig.types.json",
