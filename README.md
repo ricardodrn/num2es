@@ -1,4 +1,6 @@
 # num2es
+[![npm](https://img.shields.io/npm/v/@rdnr/num2es)](https://www.npmjs.com/package/@rdnr/num2es)
+[![Socket Badge](https://badge.socket.dev/npm/package/@rdnr/num2es/0.1.5)](https://badge.socket.dev/npm/package/@rdnr/num2es/0.1.5)
 
 Convierte números a palabras en español. Sin dependencias externas, funciona en cualquier entorno JavaScript moderno y está optimizada para ser eficiente.
 
