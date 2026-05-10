@@ -1,6 +1,6 @@
 {
   "name": "@rdnr/num2es",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Convierte números a palabras en español. Soporta monedas, géneros y escalas hasta trillones.",
   "repository": {
     "type": "git",
